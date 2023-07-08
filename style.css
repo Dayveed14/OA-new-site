@@ -21,7 +21,7 @@ body {
     width: 25%;
 }
 
-.col-4 {
+.column-4 {
     width: 33.33%;
 }
 
@@ -57,40 +57,16 @@ body {
     width: 99.96%;
 }
 
-.topnav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    overflow: hidden;
-    width: 100%;
+nav {
+
     background-color: rgb(230, 129, 230);
-    position: fixed;
-    z-index: 1;
 }
 
-
-.topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+.button1 {
+    background-color: rgb(255, 227, 66);
+    border-radius: 5px;
     font-weight: 700;
-}
-
-
-.nav-left img {
-    width: 70px;
-}
-
-.topnav a:hover {
-    color: black;
-}
-
-.topnav .icon {
-    display: none;
+    margin-right: 20px;
 }
 
 .button {
@@ -394,7 +370,7 @@ body {
 }
 
 .donate-1 h4 {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .donate-2 img {
@@ -757,54 +733,9 @@ footer {
     width: 50%;
 }
 
-@media(max-width:1520px) {
-
-    .topnav a:not(.firstlink) {
-        display: none;
-    }
-
-    .topnav a.icon {
-        float: right;
-        display: block;
-    }
-
-    .topnav.responsive {
-        position: fixed;
-    }
-
-    .topnav.responsive .icon {
-        position: fixed;
-        right: 0;
-        top: 0;
-    }
-
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: center;
-
-    }
-
-    .topnav.responsive a:first-child {
-        margin-top: 30px;
-
-    }
-
-    .button {
-        margin-right: 0px;
-    }
-
-
-}
+@media(max-width:1520px) {}
 
 @media screen and (max-width: 800px) {
-    .topnav {
-        width: 97%;
-    }
-
-    .nav-left p {
-        display: none;
-    }
 
     .partners-section,
     .events-row,
